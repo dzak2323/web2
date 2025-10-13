@@ -14,55 +14,6 @@ if (isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Sewa Alat Camping</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Gaya spesifik untuk halaman login bisa disimpan di sini atau dipindah ke style.css */
-        .login-page {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 80vh; /* Membuat konten di tengah secara vertikal */
-            padding: 40px 20px;
-        }
-        .login-container {
-            max-width: 400px;
-            width: 100%;
-            padding: 40px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .login-container h2 {
-            color: #2E7D32;
-            margin-bottom: 20px;
-        }
-        .login-form input {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
-        }
-        .login-form .button {
-            width: 100%;
-            box-sizing: border-box;
-        }
-        .message {
-            margin-bottom: 15px;
-            padding: 10px;
-            border-radius: 5px;
-            text-align: left;
-        }
-        .message--error {
-            background-color: #ffcdd2;
-            color: #c62828;
-        }
-        .message--success {
-            background-color: #c8e6c9;
-            color: #2e7d32;
-        }
-    </style>
 </head>
 <body>
 
